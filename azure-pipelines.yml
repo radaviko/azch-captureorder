@@ -31,10 +31,5 @@ stages:
       inputs:
         artifactName: 'manifests'
         targetPath: 'manifests'
-
-
-  variables:
-  - name: k8sNamespace # Kubernetes Namespace to deploy to. This variable is scoped to the DeployDev stage.
-    value: 'dev'
-      
+ 
   
