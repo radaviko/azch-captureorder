@@ -1,7 +1,5 @@
 variables:
   
-
-
   - name: dockerRegistryServiceConnection
     value: 'containerRegistryConnection' # make sure it matches the name you used in the service connection
   
